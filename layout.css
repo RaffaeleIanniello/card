@@ -1,0 +1,123 @@
+body{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;background-color: blanchedalmond;}
+article{
+    margin:0 auto;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: blanchedalmond;
+}
+h2{
+   color: brown;
+}
+p {
+    color: brown;
+}
+.card{
+    width: 400px;
+    height: 500px;
+    border: 1px solid lightgray;
+    border-radius: 60px 60px 60px 60px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.card img{
+    border-radius: 60px 60px 00px 0px;
+    flex-grow: 0;
+
+}
+.card-content{
+    padding: 0 20px;
+    flex-grow:5 ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: blanchedalmond;
+    color: brown;
+    border-radius: 0 0 60px 60px;
+  
+}
+.card-content h3{
+    text-align: center;
+    
+}
+h3  {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items:end ;
+    padding-top: 10px;
+}
+.card-content button {
+    color: brown;
+    background-color: lemonchiffon;
+    border: 0;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 80px 80px 80px 80px;
+    
+    
+   
+}
+
+ main {
+    margin:0 auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    gap: 30px;
+    
+
+}
+.peso {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:flex-end;
+
+}
+ p {
+    display: flex;
+    flex-direction:row;
+    
+    align-items:flex-end;
+    justify-content: left;
+
+}
+
+nav{
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 2em 0;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    
+    
+}
+.butt{
+    font-size: 40px;
+    
+}
+button  {
+    background-color: lemonchiffon;
+    color: brown;
+    border: 0;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    font-size: 20px;
+    border-radius: 20px 20px 20px 20px;
+    padding: 0.3em;
+}

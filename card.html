@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .card{
+            width: 400px;
+            height: 500px;
+            border: 1px solid lightgray;
+            border-radius: 60px 60px 60px 60px;
+            display: flex;
+            flex-direction: column;
+            
+        }
+        .card img{
+            border-radius: 60px 60px 00px 0px;
+            flex-grow: 0;
+
+        }
+        .card-content{
+            padding: 0 20px;
+            flex-grow:5 ;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            background-color: blanchedalmond;
+            color: brown;
+            border-radius: 0 0 60px 60px;
+          
+        }
+        .card-content h3{
+            text-align: center;
+            
+        }
+        h3  {
+            display: flex;
+            flex-direction: row;
+            justify-content: left;
+            align-items:end ;
+            padding-top: 10px;
+        }
+        .card-content button {
+            color: brown;
+            background-color: lemonchiffon;
+            border: 0;
+            margin-bottom: 10px;
+            width: 100%;
+            padding: 10px;
+            border-radius: 80px 80px 80px 80px;
+            
+            
+           
+        }
+
+         main {
+            margin:0 auto;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: flex-start;
+            gap: 30px;
+            
+
+        }
+        .peso {
+            
+            display: flex;
+            flex-direction: column;
+            justify-content:center;
+            align-items:flex-end;
+
+        }
+         p {
+            display: flex;
+            flex-direction:row;
+            
+            align-items:flex-end;
+            justify-content: left;
+
+        }
+    </style>
+</head>
+<body>
+    <main class="cards">
+        <article class="card">
+          <img src="assets/imgs/honey.jpg" alt="honey" />
+          <div class="card-content">
+            <h3>100% Bio Honey</h3>
+            <p>
+              Italian, not treated
+            </p>
+            <p class="peso">7$/kg</p>
+            <div class="button">
+            <button>Add to cart</button>
+            </div>
+          </div>
+        </article>
+        <article class="card">
+            <img src="assets/imgs/honey.jpg" alt="honey" />
+            <div class="card-content">
+              <h3>100% Bio Honey</h3>
+              <p>
+                Italian, not treated
+              </p>
+              <p class="peso">7$/kg</p>
+              <div class="button">
+              <button>Add to cart</button>
+              </div>
+            </div>
+          </article>
+          <article class="card">
+            <img src="assets/imgs/honey.jpg" alt="honey" />
+            <div class="card-content">
+              <h3>100% Bio Honey</h3>
+              <p>
+                Italian, not treated
+              </p>
+              <p class="peso">7$/kg</p>
+              <div class="button">
+              <button>Add to cart</button>
+              </div>
+            </div>
+          </article>
+          <article class="card">
+            <img src="assets/imgs/honey.jpg" alt="honey" />
+            <div class="card-content">
+              <h3>100% Bio Honey</h3>
+              <p>
+                Italian, not treated
+              </p>
+              <p class="peso">7$/kg</p>
+              <div class="button">
+              <button>Add to cart</button>
+              </div>
+            </div>
+          </article>
+
+</body>
+</html>
